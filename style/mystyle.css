@@ -1,0 +1,94 @@
+html, body {
+}
+
+main {
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: gray;
+}
+
+nav {
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.topnav {
+    justify-self: right;
+}
+
+.logo {
+}
+
+input.search-input{
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+button {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.languages {
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul.topnav li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+ul.topnav li a{
+    text-decoration: none;
+    color: gray;
+}
+
+ul.topnav li a.gsuiteicon {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+ul.left-footer li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+ul.right-footer li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.right-footer {
+    justify-self: right;
+}
+
+.footernav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
